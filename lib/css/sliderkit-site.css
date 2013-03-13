@@ -1,0 +1,43 @@
+/** 
+ *  sliderkit-site.css
+ *	> generic styles for Slider Kit plugin website presentation
+ * 
+ */
+
+/*---------------------------------
+ *  Site structure
+ *---------------------------------*/
+
+
+/*---------------------------------
+ *  Slider kit
+ *---------------------------------*/
+.sliderkit,
+.customtabs{margin:10px 0;}
+#page .sliderkit ul,
+#page .customtabs ul{margin:0;}
+
+.sliderkit .sliderkit-nav-clip a:active{color:#fff}
+.sliderkit .sliderkit-nav-clip a:hover{text-decoration:none;}
+.tabs-standard .sliderkit-nav-clip li.sliderkit-selected a:active,
+.tabs-noheight .sliderkit-nav-clip li.sliderkit-selected a:active{color:#000}
+.tabs-standard .sliderkit-nav-clip a:hover,
+.tabs-noheight .sliderkit-nav-clip a:hover{color:#fff}
+
+#page .tabs-menu .sliderkit-panel{position:relative;}
+#page .tabs-menu .sliderkit-panel-body{width:550px;}
+#page .tabs-menu .sliderkit-panel .supertoc{position:absolute;width:180px;right:0;top:30px;}
+
+
+/*---------------------------------
+ *  Transitions
+ *---------------------------------*/
+#page .transitions ul{padding:0;margin:0;list-style:none;}
+#page .transitions ul li{float:left;width:185px;margin:0 15px 10px 0;}
+#page .transitions ul li h3{}
+#page .transitions ul ul li{float:none;width:auto;margin:0 0 5px;}
+
+#page #transitionsSettings{position:absolute;left:580px;top:200px;}
+#page #transitionsSettings label{margin:0 5px 0 0;}
+#page #transitionsSettings select{margin:0 0 10px;}
+

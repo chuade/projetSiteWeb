@@ -1,0 +1,386 @@
+/* Layout stylesheet
+*
+***/
+
+body {
+  background: url("images/background.png");
+   
+}
+
+#container {	
+    margin: 0px auto;	
+	font-family:Arial;
+	background-color: white;
+	border: 1px solid #CCC;
+	width: 800px;
+	text-align:center;
+}
+
+/* Entete de page header ************/
+
+#header{
+    height: 100px;
+    width:800px;
+    border: 1px solid #CCC;
+    text-align:center;
+    padding:0px;
+    background-image: url("images/head.jpg");
+}
+
+
+#logo-image{
+    text-align:left;
+    float:left;
+    width: 196px;
+    height:61px;  
+     display:inline;
+}
+
+
+#rightHeaderMenu{
+    width: 600px;
+    height:100px;  
+    float:right;
+    text-align:center;
+    display:inline;
+    border:1px solid #CCC;
+    
+}
+
+
+#topHeadMenu{
+    width: 600px;
+     height:37px;  
+   
+  
+}
+
+#bottomHeadMenu{
+    width:600px;
+    height:40px;
+    margin-top:20px;
+    
+}
+
+#barre-menu{
+    width:200px;
+    height:40px;
+    margin-left:200px;
+    margin-top:5px;
+    display:inline;
+    float:left;
+    border:1px solid #CCC;
+}
+
+#topLevel-nav{
+    list-style: none outside none;
+    padding:0px;
+    margin:0px;
+}
+
+#home img{
+    width:50px;
+    height:40px;
+    display:inline;
+    float:left;border:1px solid #CCC;
+}
+
+#image-accueil:hover{
+    cursor:pointer;
+}
+
+#contact{
+    width: 80px;
+    height:40px;
+    float:right;
+    display:inline;
+    border:1px solid #CCC;
+}
+
+#login{
+    height:25px;
+    display:inline;
+    width:100px;  
+    margin-top:5px;
+    margin-right:5px;
+    float:right;
+   border:1px solid #CCC;
+
+}
+/******* barre de recherche */
+
+
+#barre-recherche{
+    width:300px;
+    height:30px;
+    margin-top:10px;
+    margin-left:100px;  
+    display:block;
+   
+    
+}
+
+
+
+/** fin header */
+
+
+
+#content {
+    width: 800px;
+    height:770px;
+    /*border: 1px solid gray;*/
+}
+
+
+
+/*-----------------SideBar-----------------*/
+
+
+#side-bar{
+   width:190px;
+    height:770px;
+    display: inline ;
+     float:left;
+
+     border: 1px solid #CCC;
+}
+
+#navigation-block {
+	 margin:12px;
+	
+	
+}
+
+#hide {
+	position:absolute;
+	top:30px;
+	left:-190px;
+}
+
+ul#sliding-navigation
+{
+	list-style: none;
+	font-size: .75em;
+	margin: 30px 0;
+	padding: 0;
+}
+
+ul#sliding-navigation li.sliding-element h3, ul#sliding-navigation li.sliding-element a
+{
+      
+	display: block;
+	width: 125px;
+	padding: 5px 18px;
+	margin: 0;
+	margin-bottom: 5px;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+}
+
+ul#sliding-navigation li.sliding-element h3
+{
+	color: #fff;
+	background:#333 url(images/sidebar/heading_bg.jpg) repeat-y;
+	font-weight: normal;
+        
+}
+
+ul#sliding-navigation li.sliding-element a
+{
+	color: #999;
+	background:#222 url(images/sidebar/tab_bg.jpg) repeat-y;
+	border: 1px solid #1a1a1a;
+	text-decoration: none;
+}
+
+ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
+
+
+/*****  Fin side-bar **********/
+
+
+
+#PrincipalContainer{
+    width: 600px; 
+     height:770px;
+    display: inline ;
+     float:right;   
+    border: 1px solid gray;
+}
+
+
+/*****      Header bouton déconnexion*/
+
+/* debut http://tympanus.net/codrops/2012/10/04/custom-drop-down-list-styling/ */
+.wrapper-dropdown {
+    /* Size & position */
+    position: relative;
+    width: 150px;
+    margin: 0 auto;
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+ 
+    /* Styles */
+    -moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#555555;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+    transition: all 0.3s ease-out;
+	text-align:left;
+}
+ 
+.wrapper-dropdown:after { /* Little arrow */
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    margin-top: -3px;
+    border-width: 6px 6px 0 6px;
+    border-style: solid;
+    border-color: #555555 transparent;
+}
+
+.wrapper-dropdown .dropdown {
+    /* Size & position */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+	
+	/* Fixe le margin et padding de default de ul */
+	margin-top:0px;
+	padding-left: 0px;
+    /* Styles */
+    background: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-top: none;
+    border-bottom: none;
+    list-style: none;
+    transition: all 0.3s ease-out;
+	
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+}
+
+.wrapper-dropdown .dropdown li {
+	text-align:left;
+}
+ 
+.wrapper-dropdown .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 0;
+	padding-left: 8px;
+    transition: all 0.3s ease-out;
+    border-bottom: 1px solid #e6e8ea;
+}
+ 
+.wrapper-dropdown .dropdown li:last-of-type a {
+    border: none;
+}
+ 
+.wrapper-dropdown .dropdown li i {
+    margin-right: 5px;
+    color: inherit;
+	margin-top: 5px;
+	float: left;
+	margin-bottom: 20px;
+}
+ 
+/* Hover state */
+ 
+.wrapper-dropdown .dropdown li:hover a {
+    color: #57a9d9;
+}
+
+/* Active state */
+ 
+.wrapper-dropdown.active {
+    border-radius: 5px 5px 0 0;
+    background: #dfdfdf;
+    box-shadow: none;
+    border-bottom: none;
+	overflow: visible;
+}
+ 
+.wrapper-dropdown.active .dropdown {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    max-height: 400px;
+}
+
+.bouton-recherche-gros {	
+   cursor: pointer;
+   border: 1px solid #CCC;
+   height: 30px;
+   width: 50px;
+   float: right;
+   text-indent: -9001px;
+   display: inline;
+   background-image:url("../images/search.png");
+   background-repeat: no-repeat;
+   background-position: center;
+}
+
+.bouton-recherche-gros:hover {
+   background-color:#dfdfdf;
+}
+
+.bouton-recherche-gros:active {
+   position:relative;
+   top:1px;
+}
+
+.recherche-gros {
+   width: 246px;
+   height: 30px;
+   display:inline;
+   float:left;
+   font-size: 20px;
+   border: 1px solid #CCC;
+   border-right-color: white;
+}
+
+
+
+
+#footer{
+    height: 40px;
+    width:100%;
+    clear:both;
+    border: 1px solid green ;  
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

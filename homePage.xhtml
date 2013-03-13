@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <title>Ecole Quebec</title>
+                <script type="text/javascript"  src="js/jquery.color.js"></script>
+                   <link rel="stylesheet" type="text/css" href="css/style2.css"/>
+            <link rel="stylesheet" type="text/css" href="css/template.css"/>
+           <link rel="stylesheet" type="text/css" href="css/homePage.css"/>  
+            
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+            <link rel="stylesheet" href="FortAwesome/css/font-awesome.css"/>
+            <script type="text/javascript"  src="js/search_bar.js"></script>
+            <link rel="stylesheet" type="text/css" href="css/search_bar.css"/>
+            <script type="text/javascript" src="js/jquery.js"></script>
+            <script type="text/javascript" src="js/sliding_effect.js"></script>
+            
+            <!-- debut http://tympanus.net/codrops/2012/10/04/custom-drop-down-list-styling/ -->
+     <script type="text/javascript">
+
+		function DropDown(el) {
+			this.login = el;
+			this.initEvents();
+		}
+		DropDown.prototype = {
+			initEvents : function() {
+				var obj = this;
+
+				obj.login.on('click', function(event){
+					$(this).toggleClass('active');
+					event.stopPropagation();
+				});	
+			}
+		}
+
+		$(function() {
+
+			var dd = new DropDown( $('#login') );
+
+			$(document).click(function() {
+				// all dropdowns
+				$('.wrapper-dropdown').removeClass('active');
+			});
+
+		});
+
+</script>
+<!-- fin -->         
+     </head>
+        <body>
+            <div id="container">               
+                <div id="header">
+                    <div id="logo-image"><a href="#"><img src="images/logo-udem.gif" alt=""/></a></div>                 
+                    <div id="rightHeaderMenu">
+                        <div id="topHeadMenu">                    
+                            <div id="barre-menu"> 
+                                <ul id="topLevel-nav">
+                                    <li id="home"><a href="homePage.xhtml"><img alt="Accueil" id="image-accueil" src="images/accueil.jpg"/></a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>                 
+                            </div> 
+                            
+                            <div id="login" class="wrapper-dropdown" tabindex="1"> Ntapac Péguy
+                                <ul class="dropdown">
+                                    <li><a href="login.html"><i class="icon-remove"></i>Deconnexion</a></li>                             
+                                </ul>
+                            </div>
+                        </div> 
+                        <div id="bottomHeadMenu">
+                            <div id="barre-recherche">
+                                <button type="submit" class="bouton-recherche-gros" onclick="window.location.href='schoolInfo.html'">Rechercher</button>	
+                                <input type="text" class ="recherche-gros" />                         
+                            </div>
+                        </div>
+                    </div>
+             </div>
+                <div id="content">   
+                    <div id="side-bar">
+                            <div id="navigation-block">
+                                <ul id="sliding-navigation">
+                                    <li class="sliding-element"><h3>VILLES</h3></li>
+                                    <li class="sliding-element"><a href="#">Montreal</a></li>
+                                    <li class="sliding-element"><a href="#">Longueille</a></li>
+                                    <li class="sliding-element"><a href="#">Laval</a></li>
+                                    <li class="sliding-element"><a href="#">Saint..</a></li>
+                                    <li class="sliding-element">.</li>
+                                    
+                                    <li class="sliding-element"><h3>CATÉGORIES</h3></li>
+                                    <li class="sliding-element"><a href="#">Primaire</a></li>
+                                    <li class="sliding-element"><a href="#">Secondaire</a></li>
+                                    <li class="sliding-element"><a href="#">Cegep</a></li>
+                                    <li class="sliding-element"><a href="#">Universite</a></li>
+                                    
+                                </ul>
+                                
+                            </div>                       
+                    </div>
+                    <div id="PrincipalContainer">
+                        <div class="school-div">
+                            <div class="school-image"><a href="schoolInfo.html"><img width="160" height="90" src="images/uqam.jpg" alt=""/></a></div>
+                            <div class="school_details">Je travaille sur le traitement de la langue naturelle dans le cadre du laboratoire de Recherche Appliquée en Linguistique Informatique (RALI) plus particulièrement dans les domaines suivants:
+                                
+                                présentation personnalisée d'information environnementale
+                                résumé automatique
+                             
+                            </div>
+                        </div>
+                        <div class="school-div">
+                            <div class="school-image"><a href="schoolInfo.html"><img width="160" height="90" src="images/uqtr.jpg" alt=""/></a></div>
+                            <div class="school_details">Je travaille sur le traitement de la langue naturelle dans le cadre du laboratoire de Recherche Appliquée en Linguistique Informatique (RALI) plus particulièrement dans les domaines suivants:
+                                
+                                présentation personnalisée d'information environnementale
+                                résumé automatique
+                                
+                            </div>
+                        </div>
+                        <div class="school-div">
+                            <div class="school-image"><a href="schoolInfo.html"><img width="160" height="90" src="images/universite3.jpg" alt=""/></a></div>
+                            <div class="school_details">Je travaille sur le traitement de la langue naturelle dans le cadre du laboratoire de Recherche Appliquée en Linguistique Informatique (RALI) plus particulièrement dans les domaines suivants:
+                                
+                                présentation personnalisée d'information environnementale
+                                résumé automatique
+                                
+                            </div>
+                        </div>
+                        <div class="school-div">
+                            <div class="school-image"><a href="schoolInfo.html"><img width="160" height="90" src="images/universite4.jpg" alt=""/></a></div>
+                            <div class="school_details">Je travaille sur le traitement de la langue naturelle dans le cadre du laboratoire de Recherche Appliquée en Linguistique Informatique (RALI) plus particulièrement dans les domaines suivants:
+                                
+                                présentation personnalisée d'information environnementale
+                                résumé automatique
+                              
+                            </div>
+                        </div>
+                        <div class="school-div">
+                            <div class="school-image"><a href="schoolInfo.html"><img width="160" height="90" src="images/universite4.jpg" alt=""/></a></div>
+                            <div class="school_details">Je travaille sur le traitement de la langue naturelle dans le cadre du laboratoire de Recherche Appliquée en Linguistique Informatique (RALI) plus particulièrement dans les domaines suivants:
+                                
+                                présentation personnalisée d'information environnementale
+                                résumé automatique
+                                
+                            </div>
+                        </div>
+                           
+                       
+                    </div>
+                </div>
+                      
+                <div id="footer">                             
+                </div>
+         </div>
+
+        </body>
+</html>

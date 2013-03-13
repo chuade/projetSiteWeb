@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>E8</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="js/alignInput.js"></script>
+</head>
+<body>
+    <div id="container">
+	<div id="header">
+	    <a href="index.html" id="logo"><img src="images/logo.png" alt=":ogo" height="50px";/></a>
+	    <div id="login">
+		<a href="login.html">Connexion</a>
+		/
+		<a href="register.html">Inscription</a>
+	    </div>
+	    <div id="barre-recherche">
+
+		<button type="submit" class="bouton-recherche-gros" onclick="window.location.href='recherche_video.html'">Rerchercher</button>
+		<input type="text" class="recherche-gros"></input>
+	    </div>
+	  
+	</div>
+	
+	<!-- à changer -->
+	<div id="content">
+	    <div id="login-fields">
+			<h4 class="text-align-right"> Deja Inscrit?</h4>
+			<div>
+				<label class="label-align">Nom d'utilisateur :</label>
+				<input type="text" class="username"></input>
+				</p>
+				<label class="label-align text-align-left">Mot de passe :</label>
+				<input type="password" class="password"></input>
+			</div>
+			<div class="text-align-right">
+				<button type="submit" class="E8Button bouton-login"s onclick="window.location.href='index_connecte.html'">Connexion</button>
+			</div>
+
+	    </div>
+	    
+	    <div id="register-fields">
+		<h4 class="text-align-right"> Nouvel utilisateur</h4>
+		<div>
+			<label class="label-align">Nom d'utilisateur :</label>
+			<input type="text" class="username"></input>
+			</p>
+			<label class="label-align text-align-left">Mot de passe :</label>
+			<input type="password" class="password"></input>
+			</p>
+			<label style="width: 150px;" class="label-align text-align-left">Saisissez a nouveau votre mot de passe :</label>
+			<input type="password" class="password"></input>
+		</div>
+		<div class="text-align-right">
+			<button type="submit" class="E8Button bouton-login text-align-right" onclick="window.location.href='index_connecte.html'">Inscription</button>
+		</div>
+	    </div>
+		<div class="clear"></div>		
+    </div>
+	
+	<div id="footer">
+	
+	</div>
+	
+</body>
+<script>
+$("label").autoWidth();
+</script>
+</html>

@@ -1,0 +1,20 @@
+#background {
+    background: url(../images/background.png) repeat 5% 5%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 100;
+}
+
+#midground {
+    background: url(../images/universite1.jpg) repeat 20% 20%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 200;
+}
+
+#foreground {
+    background: url(../images/universite2.jpg) repeat 90% 110%;
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    z-index: 300;
+}

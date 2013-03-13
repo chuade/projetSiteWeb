@@ -1,0 +1,24 @@
+h3,input,button{margin:0;padding:0;}
+address{font-style:inherit;font-weight:inherit;}
+
+h3{font-size:100%;font-weight:normal;}
+q:before,q:after{content:'';}
+
+input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
+input,button,textarea,select{*font-size:100%;}
+
+a:focus {outline: none}
+#cont {
+    
+    padding:25% 0 0; font:normal 12px Verdana, Geneva, sans-serif; width:274px; margin:0 auto;font:normal 12px 'Segoe UI', Arial,Verdana; color:#D1D1D1;}
+h3 {padding:0 0 3px; margin-bottom:15px; border-bottom:3px solid #333; font-weight: bold; font-size: 14px; text-shadow:0 -1px #000}
+
+#login { box-shadow:0 0 30px rgba(0,0,0,0.4); -moz-box-shadow:0 0 30px rgba(255,255,255,0.4); -webkit-box-shadow:0 0 30px rgba(255,255,255,0.4); -moz-border-radius:20px; -webkit-border-radius:18px; padding:30px; background:#111; border: 1px solid #313131}
+#cont .field {padding: 0 0 10px; }
+#cont .field input {width:200px; text-shadow:1px 1px #f4f4f4; color:#666; font:bold 11px Verdana, Geneva, sans-serif; padding:6px; border:1px solid #000}
+#cont .submit {text-align:right}
+#cont button {border-radius:7px; -moz-border-radius:7px; -webkit-border-radius:7px; background:#444; color:#fff; text-shadow:0 -1px #000; border:none; padding:5px 15px; font-weight:bold; font-size:11px; cursor:pointer; text-align: center}
+#cont button:hover {background:#555}
+#cont button:active {background:#777; position:relative; top:1px; outline:none}
+
+.ui-widget-content {border:1px solid #000; background-image: none; -moz-box-shadow:0 0 60px rgba(255,255,255,0.1)}
