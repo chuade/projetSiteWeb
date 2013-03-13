@@ -3,7 +3,7 @@
 ***/
 
 body {
-  background: url("images/background.png");
+  background: url('../images/background.png');
    
 }
 
@@ -14,17 +14,33 @@ body {
 	border: 1px solid #CCC;
 	width: 800px;
 	text-align:center;
+	
+	
+	
+	/* contour border */
+	-webkit-border-radius: 50px;
+	 -moz-border-radius: 50px;
+	 border-radius: 50px;
+	
 }
 
 /* Entete de page header ************/
 
 #header{
-    height: 100px;
-    width:800px;
-    border: 1px solid #CCC;
+	
+	 
+		width:800px;
+    height: 145px;
+		/* contour border */
+	-webkit-border-radius: 50px;
+	 -moz-border-radius: 50px;
+	 border-radius: 50px;
+		
+    border: 1px solid #ccc;
+    
     text-align:center;
     padding:0px;
-    background-image: url("images/head.jpg");
+   
 }
 
 
@@ -39,37 +55,38 @@ body {
 
 #rightHeaderMenu{
     width: 600px;
-    height:100px;  
+    height:100%;  
     float:right;
     text-align:center;
     display:inline;
-    border:1px solid #CCC;
+   
     
 }
 
 
 #topHeadMenu{
     width: 600px;
-     height:37px;  
-   
-  
+    height:37px;
+
+		margin-top: 20px;
+	
+		
 }
 
 #bottomHeadMenu{
     width:600px;
     height:40px;
-    margin-top:20px;
-    
+    margin-top:20px;   
 }
 
 #barre-menu{
-    width:200px;
-    height:40px;
-    margin-left:200px;
-    margin-top:5px;
+    width:75px;
+    height:30px;
+    margin-left:50%;
+    
     display:inline;
     float:left;
-    border:1px solid #CCC;
+   
 }
 
 #topLevel-nav{
@@ -78,46 +95,37 @@ body {
     margin:0px;
 }
 
-#home img{
-    width:50px;
-    height:40px;
+
+
+#contact img, #home img{
+    width:30px;
+    height:30px;
     display:inline;
-    float:left;border:1px solid #CCC;
+    float:left;
+		
+}
+#contact img{
+	margin-left: 4px;
 }
 
-#image-accueil:hover{
+
+#image-accueil:hover,#image-contact:hover{
     cursor:pointer;
+		background: #CCC;
+		
 }
 
-#contact{
-    width: 80px;
-    height:40px;
-    float:right;
-    display:inline;
-    border:1px solid #CCC;
-}
+
 
 #login{
-    height:25px;
+    height:20px;
     display:inline;
     width:100px;  
-    margin-top:5px;
-    margin-right:5px;
+    margin-top:0px;
+    margin-right:10%;
     float:right;
-   border:1px solid #CCC;
+  
 
-}
-/******* barre de recherche */
-
-
-#barre-recherche{
-    width:300px;
-    height:30px;
-    margin-top:10px;
-    margin-left:100px;  
-    display:block;
-   
-    
 }
 
 
@@ -129,7 +137,7 @@ body {
 #content {
     width: 800px;
     height:770px;
-    /*border: 1px solid gray;*/
+   
 }
 
 
@@ -143,11 +151,11 @@ body {
     display: inline ;
      float:left;
 
-     border: 1px solid #CCC;
+    
 }
 
 #navigation-block {
-	 margin:12px;
+	 margin:0px;
 	
 	
 }
@@ -235,12 +243,12 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
 	display:inline-block;
 	color:#555555;
 	font-family:Arial;
-	font-size:15px;
+	font-size:12px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
 	text-shadow:1px 1px 0px #ffffff;
-    transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 	text-align:left;
 }
  
@@ -328,12 +336,28 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
     max-height: 400px;
 }
 
+
+/******* barre de recherche */
+
+
+#barre-recherche{
+    width:415px;
+    height:35px;
+    margin-top:25px;
+    margin-left:85px;  
+    display:block;  
+}
+
+
 .bouton-recherche-gros {	
    cursor: pointer;
    border: 1px solid #CCC;
-   height: 30px;
-   width: 50px;
-   float: right;
+   
+	 width: 45px;
+	 height: 35px;
+   
+		margin-top: 1px;
+   
    text-indent: -9001px;
    display: inline;
    background-image:url("../images/search.png");
@@ -351,11 +375,12 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
 }
 
 .recherche-gros {
-   width: 246px;
+   width: 365px;
    height: 30px;
+	 margin-top: 1px;
    display:inline;
    float:left;
-   font-size: 20px;
+   font-size: 30px;
    border: 1px solid #CCC;
    border-right-color: white;
 }
@@ -367,7 +392,7 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
     height: 40px;
     width:100%;
     clear:both;
-    border: 1px solid green ;  
+     
     
 }
 
