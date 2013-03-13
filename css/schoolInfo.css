@@ -14,6 +14,10 @@ body{
     cursor: pointer ;
 }
 
+.school-image1:hover{
+    cursor:pointer;
+}
+
 .school-image{
     width:160px;
     height:100px;
@@ -31,21 +35,25 @@ school-details{
 }
  /*** Fin school-div*/
 
+#sliderkit-nav-clip{
+    margin:0px;
+}
 
 #slider-kit{
-    width:600px;
-     border:1px solid #CCC;
+      width:570px;;
+    
+    margin: 15px 15px 0px 15px;
+    height:110px;
 }
 
 .carousel-demo2{
-    margin:10px;
+    margin:0px;
 }
 
 #mapLocalisation{
-    width:570px;
+    width:570px;;
     height:200px;
-    margin-left:20px;
-    margin-right:20px;
+    margin: 15px 15px 0px 15px;
     border:1px solid #CCC;
 }
 
@@ -54,9 +62,9 @@ school-details{
 .carousel-demo2 .sliderkit-nav {
     left: 0px;
     bottom: 0px;
-    width: 500px;
-    height: 110px;
-    padding: 10px;
+    width: 570px;
+    height: 90px;
+    padding: 0px;
     background: none repeat scroll 0% 0% rgb(204, 204, 204);
 }
 
