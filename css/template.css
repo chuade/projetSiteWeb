@@ -215,7 +215,7 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
      height:770px;
     display: inline ;
      float:right;   
-    border: 1px solid gray;
+    border: 1px solid #CCC;
 }
 
 
