@@ -8,7 +8,11 @@
 .school-div{
     width:100%; 
     height:150px;
-    border: 1px solid #CCC; 
+   border-radius: 20px 20px 20px 20px; 
+    border: 1px solid white; 
+    border-right-color:white;
+   
+    
 }
 .school-div:hover{
     background-color:whiteSmoke;

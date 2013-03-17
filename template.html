@@ -11,7 +11,7 @@
 
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/sliding_effect.js"></script>
-
+        
 
 
         <!-- debut http://tympanus.net/codrops/2012/10/04/custom-drop-down-list-styling/ -->
@@ -49,9 +49,20 @@
     <body>
         <div id="container">
             <div id="header">
+                <div id="header1">
+                    <object  width="469" height="88">
+                        <param name="movie" value="flashvortex.swf" />
+                        <param name="quality" value="best" />
+                        <param name="menu" value="true" />
+                        <param name="allowScriptAccess" value="sameDomain" />
+                        <embed id="movie" src="images/flashvortex.swf" quality="best" menu="true" width="770" height="120" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" allowScriptAccess="sameDomain" />
+                    </object>
+                    
+                </div>
+                <div id="header2">
                 <div id="logo-image">
                     <a href="#">
-                        <img src="#" alt="" />
+                        <img src="images/logo-udem.gif" alt="" />
                     </a>
                 </div>
                 <div id="rightHeaderMenu">
@@ -80,13 +91,16 @@
                     </div>
                     <div id="bottomHeadMenu">
                         <div id="barre-recherche">
-                            <input type="text" class="recherche-gros" />
-                            <button type="submit" class="bouton-recherche-gros"
-                                onclick="window.location.href='schoolInfo.html'">Rechercher</button>
-
+                            <div id="barreDeRecherche_et_bouton" >
+                                <div id="recherche">
+                                    <button type="submit" class="bouton-recherche-gros" onclick="window.location.href='homePage.xhtml'">Rechercher</button>
+                                    <input type="text" class="recherche-gros"></input>		
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
             <div id="content">
                 <div id="side-bar">
@@ -96,43 +110,43 @@
                                 <h3>VILLES</h3>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Montreal</a>
+                                <a href="homePage.html">Montreal</a>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Longueille</a>
+                                <a href="homePage.html">Longueille</a>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Laval</a>
+                                <a href="homePage.html">Laval</a>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Saint..</a>
+                                <a href="homePage.html">Saint..</a>
                             </li>
                             <li class="sliding-element">.</li>
-
+                            
                             <li class="sliding-element">
                                 <h3>CATÉGORIES</h3>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Primaire</a>
+                                <a href="homePage.html">Primaire</a>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Secondaire</a>
+                                <a href="homePage.html">Secondaire</a>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Cegep</a>
+                                <a href="homePage.html">Cegep</a>
                             </li>
                             <li class="sliding-element">
-                                <a href="#">Universite</a>
+                                <a href="homePage.html">Universite</a>
                             </li>
-
+                            
                         </ul>
-
+                        
                     </div>
                 </div>
                 <div id="PrincipalContainer"> </div>
             </div>
 
-            <div id="footer"> </div>
+            <div id="footer"><a href="#">Design by Anas-Chuade</a> </div>
         </div>
 
     </body>

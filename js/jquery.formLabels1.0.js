@@ -206,15 +206,7 @@
                         this.value = this.title;
                 }
             })
-            $("input:image, button, input:submit").click(function(){
-                $(this.form.elements).each(function(){
-                    if(this.type =='email' || this.type =='text' || this.type =='textarea' || this.type =='password' ){
-                        if(this.value == this.title && this.title != ''){
-                            this.value='gggggg';
-                        }
-                    }
-                });
-            });
+         
         }
     }
 
@@ -232,6 +224,6 @@
             });
         })
     }
-    
 
 })(jQuery);
+

@@ -3,7 +3,6 @@
 ***/
 
 body {
-  background: url('../images/background.png');
    
 }
 
@@ -11,18 +10,16 @@ body {
     margin: 0px auto;	
 	font-family:Arial;
 	background-color: white;
-	border: 1px solid #CCC;
+	background:url("../images/silverswimmer.jpg");
 	width: 800px;
 	text-align:center;
-	
-	
-	
-	/* contour border */
-	-webkit-border-radius: 50px;
-	 -moz-border-radius: 50px;
-	 border-radius: 50px;
+/* contour border */
+	border-left-color:white;
+	 border-radius: 20px 20px 40px 40px;
 	
 }
+
+
 
 /* Entete de page header ************/
 
@@ -30,16 +27,35 @@ body {
 	
 	 
 		width:800px;
-    height: 145px;
-		/* contour border */
-	-webkit-border-radius: 50px;
-	 -moz-border-radius: 50px;
-	 border-radius: 50px;
-		
-    border: 1px solid #ccc;
-    
+    height: 270px;
+
+	/* contour border */
+	
+	 border-radius: 20px 20px 0px 0px;   
     text-align:center;
     padding:0px;
+   
+}
+
+#header1{
+    width:800px;
+    height:160px;
+    border-radius: 20px 20px 20px 20px;   
+  
+    background-color:#736973;
+    
+}
+
+#movie{
+   border-radius: 20px 20px 20px 20px;     
+}
+
+#header2{
+width: 800px;
+    height:100px;  
+    margin-top:10px;
+     background: url('../images/header2.png');
+     border-radius: 20px 20px 20px 20px;   
    
 }
 
@@ -49,13 +65,14 @@ body {
     float:left;
     width: 196px;
     height:61px;  
+    margin-top:20px;
      display:inline;
 }
 
 
 #rightHeaderMenu{
     width: 600px;
-    height:100%;  
+    height:100px;  
     float:right;
     text-align:center;
     display:inline;
@@ -67,8 +84,7 @@ body {
 #topHeadMenu{
     width: 600px;
     height:37px;
-
-		margin-top: 20px;
+    
 	
 		
 }
@@ -76,7 +92,7 @@ body {
 #bottomHeadMenu{
     width:600px;
     height:40px;
-    margin-top:20px;   
+    
 }
 
 #barre-menu{
@@ -121,7 +137,7 @@ body {
     height:20px;
     display:inline;
     width:100px;  
-    margin-top:0px;
+    margin-top:5px;
     margin-right:10%;
     float:right;
   
@@ -137,7 +153,10 @@ body {
 #content {
     width: 800px;
     height:770px;
-   
+    margin-top:10px;
+    
+    
+   border-radius: 20px 20px 20px 20px;  
 }
 
 
@@ -150,8 +169,9 @@ body {
     height:770px;
     display: inline ;
      float:left;
-
-    
+    border: 2px solid #CCC;
+       
+    border-radius: 20px 20px 20px 00px; 
 }
 
 #navigation-block {
@@ -192,12 +212,12 @@ ul#sliding-navigation li.sliding-element h3
 	color: #fff;
 	background:#333 url(images/sidebar/heading_bg.jpg) repeat-y;
 	font-weight: normal;
-        
+        font-size: 16px;
 }
 
 ul#sliding-navigation li.sliding-element a
 {
-	color: #999;
+	color: white;
 	background:#222 url(images/sidebar/tab_bg.jpg) repeat-y;
 	border: 1px solid #1a1a1a;
 	text-decoration: none;
@@ -213,9 +233,12 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
 #PrincipalContainer{
     width: 600px; 
      height:770px;
+     border-left-color:white;
     display: inline ;
-     float:right;   
-    border: 1px solid #CCC;
+     float:right;
+     border:3px solid white;
+      border-radius: 20px 20px 0px 20px; 
+
 }
 
 
@@ -342,21 +365,25 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
 
 #barre-recherche{
     width:415px;
-    height:35px;
+    height:32px;
     margin-top:25px;
     margin-left:85px;  
-    display:block;  
+     
 }
 
+#barreDeRecherche_et_bouton{
+    width: 410px;
+   height: 30px;
+}
 
 .bouton-recherche-gros {	
    cursor: pointer;
    border: 1px solid #CCC;
    
 	 width: 45px;
-	 height: 35px;
+	 height: 100%;
    
-		margin-top: 1px;
+		
    
    text-indent: -9001px;
    display: inline;
@@ -376,24 +403,26 @@ ul#sliding-navigation li.sliding-element a:hover { color: #ffff66; }
 
 .recherche-gros {
    width: 365px;
-   height: 30px;
-	 margin-top: 1px;
+   height: 100%;
    display:inline;
    float:left;
-   font-size: 30px;
+   font-size: 15px;
    border: 1px solid #CCC;
-   border-right-color: white;
+  
+  
 }
 
 
 
 
 #footer{
-    height: 40px;
-    width:100%;
+    height: 50px;
+    width:800px;
     clear:both;
-     
-    
+    border: 1px solid #CCC;
+    text-align:center;
+     background: url('../images/banniere1.gif');
+    border-radius: 0px 0px 40px 40px;
 }
 
 

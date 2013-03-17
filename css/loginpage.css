@@ -1,3 +1,18 @@
+body{
+  margin:0px;
+}
+#container{
+   width:600px;
+    height:500px;
+      margin-left: auto;
+  margin-right: auto;
+  margin-top:10%;
+  border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;
+    border:3px solid #CCC;
+      background:url("../images/silverswimmer.jpg");
+}
+
+
 h3,input,button{margin:0;padding:0;}
 address{font-style:inherit;font-weight:inherit;}
 
@@ -5,7 +20,7 @@ h3{font-size:100%;font-weight:normal;}
 q:before,q:after{content:'';}
 
 input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
-input,button,textarea,select{*font-size:100%;}
+input,button,textarea,select{font-size:100%;}
 
 a:focus {outline: none}
 #cont {
